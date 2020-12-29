@@ -1,17 +1,23 @@
 {
-  "name": "testgithubheroku01",
+  "name": "filemanager",
   "version": "1.0.0",
-  "description": "test999",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index",
+    "dev": "nodemon index"
   },
-  "author": "Dykacz Dawid",
-  "license": "ISC"
+  "author": "Dawid Dykacz",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "@types/express-handlebars": "^3.1.0",
+    "@types/formidable": "^1.0.31",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "formidable": "^1.2.2"
+  }
 }
-
