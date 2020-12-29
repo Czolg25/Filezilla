@@ -24,6 +24,7 @@ app.engine('hbs', hbs({
 app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
+    console.log("kk")
     res.render('home', { view: 'home' });
 });
 
